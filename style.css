@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    background-image:url(./CalculatorPaperworkDesk.original.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#resultado{
+    color:rgb(48, 6, 119) ;
+}
+
+
+input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-color: rgb(48, 6, 119);
+   
+    
+}
+
+#form{
+    width: 25%;
+}
+
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(48, 6, 119);
+}
+
+button {
+    background-color:rgb(48, 6, 119);
+    color: white;
+    border-radius: 50px;
+    width: 50%;
+    height: 40px;
+    box-sizing: border-box;
+    border-color: rgb(48, 6, 119);
+    
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:black;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p{
+    color: black;
+    background-color: transparent;
+    border-radius: 50px;
+
+}
